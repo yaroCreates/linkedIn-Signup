@@ -5,4 +5,192 @@
 
 body {
     font-family: "Segoe UI", sans-serif;
+    background-color: #e3e3e3;
+    height: 100vh;
+
+}
+
+.page-layout {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding-top: 18px;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 24px 0 24px 0;
+
+}
+
+.logo {
+    width: 135px;
+    margin-bottom: 22px;
+}
+
+.logo-title {
+    font-weight: 400;
+}
+
+.text-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+
+.text-group label {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 5px;
+}
+
+.text-group input {
+    padding: 7.5px 0 7.5px 0;
+    border-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+
+.user-agreement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px 0 15px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-agreement p {
+    color: rgba(0, 0, 0, 0.6);
+}
+.user-agreement a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #0a66c2;
+
+}
+
+.agree-and-join {
+    width: 100%;
+    padding: 12px 0 12px 0;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #0a66c2;
+    font: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.join-with-google {
+    
+    width: 100%;
+    padding: 12px 0 12px 0;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #fff;
+    border: 1px solid #0a66c2;
+    font: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0a66c2;
+    margin-bottom: 20px;
+}
+
+.line-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.line-border p {
+    margin: 0 20px 0 20px;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.sign-in h4 {
+    font-weight: 400;
+}
+
+.sign-in a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #0a66c2;
+}
+
+
+.get-help {
+    margin-top: 20px;
+    margin-bottom: 86px;
+}
+
+.get-help p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.get-help a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #0a66c2;
+}
+
+.footer-logo {
+    width: 60px;;
+}
+
+.footer-icon {
+    display: flex;
+}
+
+.footer-icon p {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 50px;
+}
+
+.footer-links {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    margin: 0 10px 0 10px;
 }
